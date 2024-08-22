@@ -1,0 +1,55 @@
+.modal {
+    display: block;
+}
+
+.modal-content {
+    background: white; /* Asegura que el fondo del modal sea blanco */
+    border: none; /* Elimina bordes si es necesario */
+    border-radius: 0; /* Ajusta según el diseño */
+    box-shadow: none; /* Elimina sombras si es necesario */
+    overflow: hidden;
+}
+
+.modal-header, .modal-body, .modal-footer {
+    padding: 1rem; /* Ajusta el padding según sea necesario */
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-lg {
+    max-width: 90%; /* Ajusta el tamaño del modal grande */
+}
+
+.btn-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 1;
+    opacity: 0.5;
+}
+
+.btn-close:hover {
+    opacity: 1;
+}
+
+/* Estilo para el contenedor de tags */
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+/* Estilo para cada tag */
+.tag {
+    margin: 0.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    color: #fff; /* Ajusta el color del texto según sea necesario */
+    text-align: center;
+}

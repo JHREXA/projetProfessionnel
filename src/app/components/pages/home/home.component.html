@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <!-- À propos de moi -->
+        <div class="col-lg shadow border m-1">
+            <h2 class="text-center">À propos de moi</h2>
+            <img src="../../../../assets/me.png" alt="Photo de profile" width="256" height="256" class="rounded-circle mx-auto d-block">
+            <p>Bonjour,
+                Je m'appelle Jesús Hernández Rexa et je suis actuellement en reconversion professionnelle. Après avoir accumulé une solide expérience comme professeur d'anglais et d'espagnol, j'ai décidé de réorienter ma carrière vers le développement web. Mon parcours professionnel m'a permis de développer des compétences pédagogiques et créatives, notamment en créant du contenu pour mes cours. Je souhaite maintenant approfondir mes connaissances et compétences techniques pour devenir un développeur intégrateur web accompli, capable de gérer des projets de développement front-end et back-end avec efficacité. Pour cela, je vous invite à parcourir mon portfolio pour avoir plus de détails sur mon projet professionnel.</p>
+        </div>
+        <!-- Mon projet détaillé -->
+        <div class="col-lg shadow border m-1">
+            <div class="text-center">
+                <h2>Un de mes projets réalisés</h2>
+                <h4>{{featuredProject.name}}</h4>
+            </div>
+            <div class="project-content">
+                <div class="project-image">
+                    <img [src]="projectPicture" alt="Imagen del proyecto" class="img-fluid">
+                </div>
+                <div class="project-text">
+                    <h5 class="mt-2">{{featuredProject.resume}}</h5>
+                    <h5>Visitez mon portfolio pour en savoir plus.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
